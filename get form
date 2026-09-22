@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Student Information</h1>
+<form action=
+"hello" method=
+Enter Name:
+<input type=
+<input type=
+</form>
+"get">
+"text" name=
+"submit" value=
+"name">
+"Submit">
+</body>
+</html>
+String name = request.getParameter("name");
+out.println("<h1>Welcome " + name + "</h1>");
+A GET request may produce a URL such as:
+http://localhost:8080/servlet/hello?name=Jahanvi
